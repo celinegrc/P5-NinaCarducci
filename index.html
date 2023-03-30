@@ -40,9 +40,9 @@
 				<div id="header">
 					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 						<div class="carousel-indicators">
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+							<button id="button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button id="button2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+							<button id="button3" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 						</div>
 						<div class="carousel-inner">
 							<div class="carousel-item active">
@@ -52,13 +52,13 @@
 								src="./assets/images/slider/ryoji-iwata-1920.webp" 
 								sizes ="100vw"
 								class="d-block w-100" 
-								alt="Homme en costume noir vu de dos marchant sur un large passage piéton">
+								alt="Homme en costume noir marchant sur un large passage piéton">
 							</div>
 							<div class="carousel-item ">
-								<img srcset = "./assets/images/slider/nicholas-green-1920.webp 1920w,
+								<img srcset = "./assets/images/slider/nicholas-green-min.webp 1920w,
 									./assets/images/slider/nicholas-green-1320.webp 1320w,
 									./assets/images/slider/nicholas-green-650.webp 650w"
-								src="./assets/images/slider/nicholas-green-1920.webp"
+								src="./assets/images/slider/nicholas-green-min.webp"
 								sizes ="100vw"
 								class="d-block w-100" 
 								alt="Gros plan sur 2 hommes ayant chacun un bras levé dans une foule de spectateurs">
@@ -86,9 +86,6 @@
 				<section id="about">
 					<div class="picture left">
 						<img id="nina" 
-						srcset = "./assets/images/nina.webp 560w,
-						./assets/images/nina-360.webp 361w"
-						sizes ="(max-width:650px) 361px, 560px"
 						src="./assets/images/nina.webp" alt="Jeune femme brune aux cheveux bouclés posant devant des arbres">
 					</div>
 					<div id="about-me">
@@ -102,18 +99,18 @@
 					<h2 class="title">Portfolio</h2>
 					<div class="container py-3">
 						<div class="gallery" style="display: none">
-							<img data-gallery-tag="Concert" class="gallery-item" 
+							<img data-gallery-tag="Concert" class="gallery-item"
 							src="./assets/images/gallery/concerts/aaron-paul.webp" 
 							alt="une scène de concert et son guitariste éclairés par des stroboscopes rouges derrière la foule"
 							/>
 							<img data-gallery-tag="Entreprises" 
-							class="gallery-item" 
-							src="./assets/images/gallery/entreprise/ali-morshedlou.webp" 
+							class="gallery-item"			
+							src="./assets/images/gallery/entreprise/ali-morshedlou-min.webp" 
 							alt="Portrait d'un jeune homme d'affaire en costume avec les bras croisés portant une grosse montre"
 							/>
 							<img data-gallery-tag="Entreprises" 
 							class="gallery-item" 
-							src="./assets/images/gallery/entreprise/jason-goodman.webp" 
+							src="./assets/images/gallery/entreprise/jason-goodman-min.webp" 
 							alt="Une femme brune assise dans un bureau rit avec une autre femme vue de trois-quarts"
 							/>
 							<img data-gallery-tag="Mariages" 
@@ -122,17 +119,17 @@
 							alt="Gros plan sur les mains d'un homme et d'une femme se touchant du bout des doigts "
 							/>
 							<img data-gallery-tag="Portrait" 
-							class="gallery-item" 
+							class="gallery-item"		
 							src="./assets/images/gallery/portraits/ade-tunji.webp" 
 							alt="Gros plan sur un homme au soleil fermant fort les yeux"
 							/>
 							<img data-gallery-tag="Mariages" 
-							class="gallery-item" 
+							class="gallery-item"			
 							src="./assets/images/gallery/mariage/jakob-owens.webp" 
 							alt="Couple de mariés se tenant par la main et marchant en riant devant un gros palmier"
 							/>
 							<img data-gallery-tag="Portrait" 
-							class="gallery-item" 
+							class="gallery-item"	
 							src="./assets/images/gallery/portraits/nino-van-prattenburg.webp" 
 							alt="Jeune femme avec des lunettes regardant vers le bas de l'autre côté d'un grillage"
 							/>
@@ -143,13 +140,9 @@
 							/>
 							<img data-gallery-tag="Entreprises" 
 							class="gallery-item"  
-							 srcset = "./assets/images/gallery/entreprise/mateus-campos.webp 939w,
-							./assets/images/gallery/entreprise/mateus-campos-380.webp 621w,
-							./assets/images/gallery/entreprise/mateus-campos-319.webp 521w"
-							src="./assets/images/gallery/entreprise/mateus-campos.webp" 
+							src="./assets/images/gallery/entreprise/mateus-campos-min.webp" 
 							alt="Une jeune femme assise à son bureau derrière son ordinateur portable rit."
-							/>
-							
+							/>	
 						</div>
 					</div>
 					<div class="quote">
@@ -221,7 +214,7 @@
 						</form>
 					</div>
 					<div class="picture right">
-						<img id ="camera" src="./assets/images/camera.webp" alt="Appareil photo muni d'un zoom dans la pénombre">
+						<img id ="camera" src="./assets/images/camera-min.webp" alt="Appareil photo muni d'un zoom dans la pénombre">
 					</div>
 				</div>
 				<div class="new-div" itemscope itemtype="https://schema.org/LocalBusiness">
