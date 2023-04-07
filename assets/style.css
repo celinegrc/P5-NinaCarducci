@@ -85,7 +85,6 @@ body {
 .about-me__title {
 	margin-top: 1em;
 	margin-bottom: 40px;
-	font-size: 30px;
 }
 #about-me-p {
 	width: 80%;
@@ -361,7 +360,7 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 	#services .container::before{
-		width: 30%;
+		width: 20%;
 		height: 100%;
 		bottom: 0;
 		right: 0;
@@ -385,6 +384,7 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	
 }
 
 @media all and (max-width:991px){
@@ -444,8 +444,13 @@ input[type="submit"] {
 		height:250px;
 		margin: 0 20px;
 	}
+	.titre_h2{
+		max-width:180px;
+		margin:auto;
+	}
 }
 
 #title_span{
 	font-size:14px;
 }
+
